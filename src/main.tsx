@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import Hello from './components/Hello.tsx';
+import App from './components/app.tsx';
 
-ReactDOM.render(<Hello content={'hello world'} />, document.getElementById('app'));
+
+ReactDOM.render(<App content={'hello world'} />, document.getElementById('app'));
